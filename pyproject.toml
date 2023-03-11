@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pythonproject-git"
+version = "0.1.0"
+description = ""
+authors = ["Сергей <goroxov.99@mail.ru>"]
+readme = "README.md"
+packages = [{include = "pythonproject_git"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
